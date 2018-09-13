@@ -32,5 +32,6 @@ public class LoginAppTest {
 		
 		RHP.searchBox().sendKeys("perfume");
 		RHP.ClickOnSearch().click();
+		RHP.RSignIn().click();
 	}
 }

@@ -20,6 +20,10 @@ public class RediffHomePagePF {
 	@FindBy(className ="newsrchbtn")
 	WebElement ClickOnSearch;
 	
+	@FindBy(xpath=".//a[@href='/login']")
+	
+	WebElement RSignIn;
+	
 	public WebElement searchBox()
 	{
 		return searchBox;
@@ -30,6 +34,10 @@ public class RediffHomePagePF {
 	{
 		return ClickOnSearch;
 	}
-			
+	
+	public WebElement RSignIn()
+	{
+		return RSignIn;
+	}
 
 }
