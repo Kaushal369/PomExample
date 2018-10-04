@@ -15,12 +15,14 @@ public class LoginAppTest {
 	@Test
 	public void kickOff()
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\Software\\chromedriver.exe"); // Add these line on 10/4/2018 by admin
+		System.setProperty("webdriver.chrome.driver", "D:\\Software\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 		driver.get("http://www.rediff.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.manage().deleteAllCookies(); 										// code added by Admin on 4/10/2018
 		
 		RediffLoginPagePF RLP = new RediffLoginPagePF(driver);
 		
