@@ -3,6 +3,7 @@ package DriverPF;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -10,11 +11,12 @@ import ObjectRepository.RediffHomePagePF;
 import ObjectRepository.RediffLoginPagePF;
 
 public class LoginAppTest {
-	
+	WebDriver driver;
 	@Test
 	public void kickOff()
 	{
-		WebDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "D:\\Software\\chromedriver.exe");
+		driver = new ChromeDriver();
 		
 		driver.get("http://www.rediff.com/");
 		driver.manage().window().maximize();
