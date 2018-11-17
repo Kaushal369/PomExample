@@ -37,7 +37,7 @@ public class LoginAppTest {
 		RHP.searchBox().sendKeys("perfume");
 		RHP.ClickOnSearch().click();
 		RHP.RSignIn().click(); 
-		driver.close();    // added by kaushal on 17/11/2018 testing purpose
+		driver.close();    // added by kaushal on 17/11/2018 testing purpose...
 		
 	}
 }
