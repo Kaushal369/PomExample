@@ -15,7 +15,7 @@ public class LoginAppTest {
 	@Test
 	public void kickOff()
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\Software\\chromedriver.exe"); // code added by admin on 4/10/2018
+		System.setProperty("webdriver.chrome.driver", "E:\\Software\\chromedriver.exe"); // code added by admin on 4/10/2018
 		driver = new ChromeDriver();
 		
 		driver.get("http://www.rediff.com/");
