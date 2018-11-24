@@ -28,7 +28,7 @@ public class LoginAppTest {
 		
 		RLP.signinLink().click();
 		RLP.username().sendKeys("Admin123");
-		RLP.password().sendKeys("123456");
+		RLP.password().sendKeys("12345");
 		RLP.loginbtn().click();
 		RLP.backToHome().click();
 		
