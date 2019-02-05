@@ -36,7 +36,7 @@ public class RediffLoginPagePF {
 	
 	@FindBy(xpath=".//div[@class='head-wrapper']/div[2]/a")
 
-	WebElement backToHome;  // updated by kaushal joshi.....
+	WebElement backToHome;  // updated by kaushal joshi.
 
 	
 	public WebElement signinLink()
