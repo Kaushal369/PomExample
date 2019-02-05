@@ -34,7 +34,7 @@ public class RediffLoginPagePF {
 
 	WebElement loginbtn;
 	
-	@FindBy(xpath=".//*[@id='login']/div[2]/div[2]/div[3]/a")
+	@FindBy(xpath=".//div[@class='head-wrapper']/div[2]/a")
 
 	WebElement backToHome;
 
