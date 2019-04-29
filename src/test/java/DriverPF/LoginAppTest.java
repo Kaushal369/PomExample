@@ -18,7 +18,7 @@ public class LoginAppTest {
 		System.setProperty("webdriver.chrome.driver", "E:\\Software\\chromedriver.exe"); // code added by admin on 4/10/2018
 		driver = new ChromeDriver();
 		
-		driver.get("http://www.rediff.com/");
+		driver.get("http://www.rediff.com/"); // After creating new branch Team01 Added this comment
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
