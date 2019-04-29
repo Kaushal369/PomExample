@@ -11,6 +11,9 @@ import ObjectRepository.RediffHomePagePF;
 import ObjectRepository.RediffLoginPagePF;
 
 public class LoginAppTest {
+	
+	/*This Class is created by kaushal*/
+	
 	WebDriver driver;
 	@Test
 	public void kickOff()
@@ -38,6 +41,7 @@ public class LoginAppTest {
 		RHP.ClickOnSearch().click();
 		RHP.RSignIn().click(); 
 		driver.close();    // added by kaushal on 17/11/2018 testing purpose...
+		
 		
 	}
 }
